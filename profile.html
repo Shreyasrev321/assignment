@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="profile.css" />
+    <header class="header">
+        <div class="container-fluid">
+          <img
+            src="download.jpg"
+            alt=""
+            width="35"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          <span class="heading">Employee information system</span>
+        </div>
+    </header>
+  </head>
+  <body>
+    <div class="d-flex p-2 bd-highlight">
+<h2>Add Employee</h2>
+
+<button  class="btn btn-primary">cancel</button>
+<a href="./infos.html">
+<button class="btn btn-light">save</button>
+</a>  
+    </div>
+
+      
+
+     
+<form class="form-container">
+    <h3>Basic information</h3>
+    <div class="container">
+      <span class="input-field">
+<label for="First-name">First Name</label>
+        <input name="First-name" type="text" />
+      </span>
+        
+        <span class="input-field">
+    <label for="last-name">Last Name</label>
+        <input name="last-name" type="text" />
+        </span>
+     
+    <span class="input-field">
+    <label for="email">Email</label>
+        <input name="email" type="email" />
+    </span>
+       </div>
+           <div class="input-field">
+     <label for="Designation">Designation</label>
+
+        <select name="Designation" id="designation">
+          <option value="" selected disabled hidden>Select one</option>
+          <option value="Software Engineer">Software Engineer</option>
+          <option value="UI Developer">UI Developer</option>
+          <option value="Software Architect">Software Architect</option>
+          <option value="Developer">Developer</option>
+        </select>
+       </div>
+    </form>
+
+    <form class="form-container-2">
+    <h3>Basic information</h3>
+    <div class="container__1">
+        <div class="container_1">
+ <span class="input-field-2">
+<label for="Address">Address</label>
+        <input name="Address" type="text" class="address" />
+      </span>
+        
+       <span class="input-field-2">
+     <label for="country">Designation</label>
+
+        <select name="country" class="country">
+          <option value="" selected disabled hidden>Select one</option>
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+          <option value="Russia">Russia</option>
+          <option value="UK">UK</option>
+        </select>
+    </span>
+        </div>
+     
+<div class="container_2">
+<span class="input-field-2">
+    <label for="state">State/Province(optional)</label>
+        <input name="state" type="text" class="state" />
+        </span>
+     
+    <span class="input-field-2">
+    <label for="city">city</label>
+        <input name="city" type="email" class="city"/>
+    </span>
+
+      <span class="input-field-2">
+    <label for="Zip-code">Zip-code</label>
+        <input name="Zip-code" type="email" class="zip-code"/>
+    </span>
+</div>
+        
+
+      <span class="input-field-2">
+    <label for="phone-num">Phone number</label>
+        <input name="phone-num" type="email" class="phone"/>
+    </span>
+       </div>
+    
+    </form>
+  </body>
+</html>
+    </div>
+    
+<form class="form-container-3">
+    <h3>personal information</h3>
+    <div class="container__3">
+      <span class="input-field-3">
+<label for="date">Date of birth(dd/mm/yy)</label>
+        <input name="date" type="text" class="date"/>
+      </span>
+        
+      <span class="input-field-4">
+           <input name="Female" type="radio" class="gender"/>
+           <label for="Female" class="female">Female</label>
+          <input name="male" type="radio" class="gender"/>
+            <label for="male" class="male">Male</label>
+      </span>
+        <span class="input-field-3">
+    <label for="blood-group">blood group</label>
+        <input name="blood-group" type="text" class="blood-group" />
+        </span>
+     
+       </div>
+           <div class="input-field-3">
+     <label for="marital-status">marital-status</label>
+
+        <select name="marital-status" >
+          <option value="" selected disabled hidden>Select one</option>
+          <option value="volvo">Single</option>
+          <option value="saab">Married</option>
+          <option value="mercedes">others</option>
+          <option value=""></option>
+        </select>
+       </div>
+    </form>

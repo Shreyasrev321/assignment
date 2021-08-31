@@ -1,0 +1,53 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.header {
+  padding: 5px;
+  background-color: blueviolet;
+}
+
+th {
+  padding: 18px;
+  text-align: left;
+  padding-left: 25px;
+  background-color: #dedede;
+  left: 10px;
+}
+
+td {
+  padding: 14px;
+  padding-left: 25px;
+}
+
+div.container-fluid {
+  background-color: #1f415d;
+  padding: 10px;
+}
+
+.heading {
+  font-size: 24px;
+  padding-left: 20px;
+  color: white;
+  margin: 10px;
+}
+
+.containerr {
+  margin: 15px;
+}
+
+h2 {
+  margin-left: 12px;
+  padding: 9px;
+  margin-right: 1200px;
+}
+
+.btn-circle.btn-xl {
+  width: 60px;
+  height: 60px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
