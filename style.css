@@ -1,28 +1,37 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./roboto/Roboto-Medium.ttf");
+}
+
 body {
   background-color: #f2f2f2;
 }
 
-.header {
-  padding: 5px;
-  background-color: blueviolet;
-}
-
 th {
-  padding: 18px;
+  padding: 16px;
   text-align: left;
   padding-left: 25px;
   background-color: #dedede;
   left: 10px;
+  font: normal normal bold 12px/14px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.54;
 }
 
 td {
   padding: 14px;
   padding-left: 25px;
+  text-align: left;
+  font: normal normal normal 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #000000de;
+  opacity: 0.87;
 }
 
 div.container-fluid {
   background-color: #1f415d;
-  padding: 10px;
+  padding: 14px;
 }
 
 .heading {
@@ -30,24 +39,488 @@ div.container-fluid {
   padding-left: 20px;
   color: white;
   margin: 10px;
+  font: normal normal medium 20px/24px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 .containerr {
-  margin: 15px;
+  margin: 10px 39px;
 }
 
-h2 {
-  margin-left: 12px;
+h2.employee {
+  margin-top: 10px;
+  margin-left: 19px;
   padding: 9px;
-  margin-right: 1200px;
+  margin-right: 1215px;
+}
+
+h2.employee_ {
+  margin-left: 19px;
+  margin-top: 10px;
+  margin-bottom: -30px;
+  padding: 9px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
 }
 
 .btn-circle.btn-xl {
-  width: 60px;
-  height: 60px;
-  padding: 10px 16px;
+  width: 55px;
+  height: 55px;
+  padding: 10px 13px;
   border-radius: 35px;
   font-size: 20px;
   color: white;
   text-align: center;
+  margin-top: 13px;
+}
+
+.row-2 {
+  background-color: #f8f8f8;
+}
+
+.row-1 {
+  background-color: #ffffff;
+}
+
+img.d-inline-block {
+  margin-left: 10px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+/* ////////////////////////////////////////////////// */
+
+h1 {
+  margin-left: 12px;
+  padding: 9px;
+}
+
+input {
+  width: 380px;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+input.gender {
+  margin-top: 11px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin: 4px;
+  text-align: left;
+  font-family: Roboto;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+}
+
+div.container_r {
+  display: inline-flex;
+}
+
+.input-field {
+  display: block;
+  margin: 20px 25px;
+  margin-right: 68px;
+}
+
+.input-field-2 {
+  display: block;
+  margin: 20px 25px;
+  margin-right: 45px;
+  margin-right: 68px;
+}
+
+.input-field-3 {
+  display: block;
+  margin: 20px 25px;
+  margin-right: 45px;
+}
+.input-field-4 {
+  display: inline-flex;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.container_1 {
+  display: inline-flex;
+}
+
+.container_2 {
+  display: inline-flex;
+}
+
+.container__3 {
+  display: inline-flex;
+}
+
+.form-container_r {
+  max-width: 100%;
+  height: 305px;
+  background-color: #ffffff;
+  margin: 10px 39px;
+  padding: 15px;
+  box-shadow: 3px 3px 5px #dedede;
+  border: 1px solid #dedede;
+  margin-top: 30px;
+}
+
+.form-container-2 {
+  max-width: 100%;
+  height: 400px;
+  background-color: #ffffff;
+  margin: 40px;
+  padding: 15px;
+  box-shadow: 3px 3px 5px #dedede;
+  border: 1px solid #dedede;
+}
+.form-container-3 {
+  max-width: 100%;
+  height: 330px;
+  background-color: #ffffff;
+  margin: 40px;
+  padding: 15px;
+  box-shadow: 3px 3px 5px #dedede;
+  border: 1px solid #dedede;
+}
+
+select {
+  /* display: block; */
+  width: 380px;
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+select#designation {
+  margin-left: 10px;
+  padding: 8px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-left: 28px;
+  margin-bottom: 0px;
+  text-align: left;
+  font: normal normal medium 14px/30px Roboto;
+  letter-spacing: 0px;
+  color: #55555580;
+  opacity: 1;
+}
+
+.address {
+  width: 860px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.country {
+  width: 380px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-left: -15px;
+}
+
+.phone {
+  width: 380px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.state {
+  width: 380px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.city {
+  width: 380px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.zip-code {
+  width: 380px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.blood-group {
+  width: 380px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+
+.date {
+  width: 380px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.marital-status {
+  width: 380px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+input.gender {
+  width: 70px;
+  margin-right: 80px;
+}
+
+button {
+  float: right;
+  padding: 3px;
+  margin: 10px 15px;
+}
+
+#cancel {
+  font: normal normal medium 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #00539b;
+  opacity: 1;
+  width: 75px;
+  border-radius: 4px;
+}
+
+#save {
+  font: normal normal medium 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-right: 10px;
+  width: 75px;
+  background: #1f415d 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+
+h2 {
+  margin-right: 1040px;
+}
+
+label.female {
+  margin-left: -50px;
+  margin-right: 50px;
+}
+label.male {
+  margin-left: -50px;
+  margin-right: 30px;
+}
+
+.address-lb {
+  margin-left: 14px;
+}
+
+.marital-status-lb {
+  margin-left: 14px;
+}
+
+label.destination_ {
+  margin-left: 14px;
+}
+.date-lb {
+  margin-left: 14px;
+}
+.blood-lb {
+  margin-left: 60px;
+}
+
+.dest {
+  margin-left: -14px;
+}
+
+.lb {
+  margin-left: 10px;
+}
+
+/* /////////////////////////////// */
+
+#back {
+  float: right;
+  padding: 5px;
+  margin: 15px 15px;
+  margin-top: 20px;
+  background: #1f415d 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  margin-right: 30px;
+  font: normal normal medium 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  width: 75px;
+}
+
+img.info {
+  margin-top: 60px;
+  margin-left: 50px;
+  top: 120px;
+  left: 75px;
+  width: 180px;
+  height: 180px;
+}
+
+div.bio {
+  display: inline-flex;
+  margin-left: 30px;
+}
+div.Info {
+  margin-left: 30px;
+}
+
+p.name {
+  text-decoration: none;
+  margin-top: 100px;
+  font: normal normal bold 32px/38px Roboto;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+}
+
+p.profession {
+  font-size: 20px;
+  margin: none;
+  text-align: left;
+  font: normal normal medium 20px/24px Roboto;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+}
+p.mail {
+  text-align: left;
+  font: normal normal medium 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+}
+
+p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+p.Address {
+  /* font-size: 15px;
+  font-weight: bold;
+  color: gray; */
+  text-align: left;
+  font: normal normal medium 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+  /* font: normal normal normal 12px/14px Roboto; */
+}
+
+p.date_ {
+  text-align: left;
+  font: normal normal normal 12px/14px Roboto;
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+}
+
+p.gender_ {
+  text-align: left;
+  font: normal normal normal 12px/14px Roboto;
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+  top: 691px;
+  left: 589px;
+  width: 66px;
+  height: 14px;
+}
+
+p.blood_grp {
+  text-align: left;
+  font: normal normal normal 12px/14px Roboto;
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+  top: 691px;
+  left: 589px;
+  width: 66px;
+  height: 14px;
+}
+
+p.marital_ {
+  text-align: left;
+  font: normal normal normal 12px/14px Roboto;
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+  top: 691px;
+  left: 589px;
+  width: 66px;
+  height: 14px;
+  display: contents;
+}
+
+.form-contain {
+  max-width: 100%;
+  height: 250px;
+  margin: 40px;
+  padding: 15px;
+  border: 1px solid #dedede;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px -1px 1px #0000000d;
+  opacity: 1;
+}
+
+.Contain_1 {
+  height: 280px;
+}
+
+h6 {
+  margin-left: 45px;
+  padding: 10px;
+  color: gray;
+}
+
+.input-fieldd-2 {
+  margin-right: 500px;
+  padding: 10px;
+  margin-left: 36px;
+}
+.input-fieldd {
+  margin-right: 500px;
+  padding: 10px;
+  margin-left: 36px;
+}
+
+div.container {
+  display: inline-flex;
+  margin-bottom: 15px;
+}
+
+div.status {
+  margin-left: 55px;
+  text-align: left;
+}
+
+p.status_1 {
+  text-align: left;
+  font: normal normal medium 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
 }

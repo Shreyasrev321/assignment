@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="./style.css" />
     <header class="header">
         <div class="container-fluid">
           <img
@@ -20,20 +20,20 @@
   </head>
   <body>
     <div class="d-flex p-2 bd-highlight">
-<h2>Add Employee</h2>
+<h2 class="employee_">Add Employee</h2>
 
-<button  class="btn btn-primary">cancel</button>
+<button id="cancel" class="btn ">cancel</button>
 <a href="./infos.html">
-<button class="btn btn-light">save</button>
+<button id="save" class="btn ">save</button>
 </a>  
     </div>
 
       
 
      
-<form class="form-container">
+<form class="form-container_r">
     <h3>Basic information</h3>
-    <div class="container">
+    <div class="container_r">
       <span class="input-field">
 <label for="First-name">First Name</label>
         <input name="First-name" type="text" />
@@ -50,7 +50,7 @@
     </span>
        </div>
            <div class="input-field">
-     <label for="Designation">Designation</label>
+     <label for="Designation" class="destination_">Designation</label>
 
         <select name="Designation" id="designation">
           <option value="" selected disabled hidden>Select one</option>
@@ -67,12 +67,12 @@
     <div class="container__1">
         <div class="container_1">
  <span class="input-field-2">
-<label for="Address">Address</label>
+<label for="Address" class="address-lb">Address</label>
         <input name="Address" type="text" class="address" />
       </span>
         
        <span class="input-field-2">
-     <label for="country">Designation</label>
+     <label for="country" class="dest">Country</label>
 
         <select name="country" class="country">
           <option value="" selected disabled hidden>Select one</option>
@@ -86,7 +86,7 @@
      
 <div class="container_2">
 <span class="input-field-2">
-    <label for="state">State/Province(optional)</label>
+    <label for="state" class="lb">State/Province(optional)</label>
         <input name="state" type="text" class="state" />
         </span>
      
@@ -103,7 +103,7 @@
         
 
       <span class="input-field-2">
-    <label for="phone-num">Phone number</label>
+    <label for="phone-num" class="lb">Phone number</label>
         <input name="phone-num" type="email" class="phone"/>
     </span>
        </div>
@@ -114,10 +114,10 @@
     </div>
     
 <form class="form-container-3">
-    <h3>personal information</h3>
+    <h3>Personal information</h3>
     <div class="container__3">
       <span class="input-field-3">
-<label for="date">Date of birth(dd/mm/yy)</label>
+<label for="date" class="date-lb">Date of birth(dd/mm/yy)</label>
         <input name="date" type="text" class="date"/>
       </span>
         
@@ -128,15 +128,15 @@
             <label for="male" class="male">Male</label>
       </span>
         <span class="input-field-3">
-    <label for="blood-group">blood group</label>
+    <label for="blood-group" class="blood-lb">blood group</label>
         <input name="blood-group" type="text" class="blood-group" />
         </span>
      
        </div>
            <div class="input-field-3">
-     <label for="marital-status">marital-status</label>
+     <label for="marital-status" class="marital-status-lb">marital-status</label>
 
-        <select name="marital-status" >
+        <select name="marital-status" class="marital-status">
           <option value="" selected disabled hidden>Select one</option>
           <option value="volvo">Single</option>
           <option value="saab">Married</option>
