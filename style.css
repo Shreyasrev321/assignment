@@ -3,14 +3,36 @@
   src: url("./roboto/Roboto-Medium.ttf");
 }
 
-body {
-  background-color: #f2f2f2;
+@font-face {
+  font-family: "montserrat";
+  src: url("./montserrat.regular.ttf");
 }
 
-th {
-  padding: 16px;
+.body_1 {
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 687px;
+}
+
+.head__img {
+  top: 18px;
+  left: 24px;
+  width: 30px;
+  height: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th_1 {
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 24px;
   background-color: #dedede;
   left: 10px;
   font: normal normal bold 12px/14px Roboto;
@@ -19,9 +41,55 @@ th {
   opacity: 0.54;
 }
 
-td {
-  padding: 14px;
-  padding-left: 25px;
+.th_2 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+
+  background-color: #dedede;
+  left: 10px;
+  font: normal normal bold 12px/14px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.54;
+}
+
+.td_1 {
+  width: 219.51px;
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+  padding-left: 24px;
+  text-align: left;
+  font: normal normal normal 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #000000de;
+  opacity: 0.87;
+}
+.td_2 {
+  width: 331.04px;
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+  text-align: left;
+  font: normal normal normal 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #000000de;
+  opacity: 0.87;
+}
+
+.td_3 {
+  width: 344.45px;
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
+  text-align: left;
+  font: normal normal normal 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #000000de;
+  opacity: 0.87;
+}
+
+.td_4 {
+  padding-top: 15.5px;
+  padding-bottom: 15.5px;
   text-align: left;
   font: normal normal normal 14px/17px Roboto;
   letter-spacing: 0px;
@@ -31,29 +99,38 @@ td {
 
 div.container-fluid {
   background-color: #1f415d;
-  padding: 14px;
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 60px;
+  padding: 16px;
 }
 
 .heading {
-  font-size: 24px;
+  font-size: 18px;
   padding-left: 20px;
-  color: white;
-  margin: 10px;
-  font: normal normal medium 20px/24px Roboto;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
+  width: 269px;
+  height: 24px;
 }
 
 .containerr {
-  margin: 10px 39px;
+  margin: 0px 24px;
+}
+span.employee {
+  margin: auto;
+  /* margin-left: 24px; */
+  margin-right: 1086px;
+  font-size: 30px;
+  font-family: "montserrat";
+  margin-left: 24px;
 }
 
-h2.employee {
-  margin-top: 10px;
-  margin-left: 19px;
-  padding: 9px;
-  margin-right: 1215px;
+.sub_header {
+  display: inline-flex;
+  height: 103px;
 }
 
 h2.employee_ {
@@ -68,22 +145,35 @@ h2.employee_ {
 }
 
 .btn-circle.btn-xl {
-  width: 55px;
-  height: 55px;
-  padding: 10px 13px;
+  margin-top: 25px;
+  margin-bottom: 24px;
+  width: 54px;
+  height: 54px;
   border-radius: 35px;
   font-size: 20px;
   color: white;
   text-align: center;
-  margin-top: 13px;
+}
+
+.thead_ {
+  height: 54px;
+  width: 1318px;
 }
 
 .row-2 {
   background-color: #f8f8f8;
+  top: 285px;
+  left: 48px;
+  width: 47px;
+  height: 17px;
 }
 
-.row-1 {
+tr.row-1 {
   background-color: #ffffff;
+  top: 220px;
+  left: 24px;
+  width: 1318px;
+  height: 48px;
 }
 
 img.d-inline-block {
@@ -94,17 +184,35 @@ img.d-inline-block {
 
 /* ////////////////////////////////////////////////// */
 
-h1 {
-  margin-left: 12px;
-  padding: 9px;
+body {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 687px;
+}
+
+.sub_headerr {
+  display: inline-flex;
+  height: 96px;
+}
+
+span.employeee {
+  /* width: 1366px; */
+  margin: auto;
+  margin-left: 24px;
+  margin-right: 964px;
+  font-size: 25px;
+  font-family: "montserrat";
 }
 
 input {
-  width: 380px;
+  width: 369px;
   padding: 5px;
   border: 1px solid #dddddd;
   border-radius: 4px;
   opacity: 1;
+  margin-right: 71px;
 }
 
 input.gender {
@@ -113,7 +221,7 @@ input.gender {
 
 label {
   display: block;
-  font-size: 16px;
+  font-size: 13px;
   margin: 4px;
   text-align: left;
   font-family: Roboto;
@@ -124,25 +232,22 @@ label {
 
 div.container_r {
   display: inline-flex;
+  padding-left: 36px;
+  margin-bottom: 14px;
 }
 
 .input-field {
   display: block;
-  margin: 20px 25px;
-  margin-right: 68px;
+  /* margin: 20px 25px;
+  margin-right: 68px; */
 }
 
 .input-field-2 {
   display: block;
-  margin: 20px 25px;
-  margin-right: 45px;
-  margin-right: 68px;
 }
 
 .input-field-3 {
   display: block;
-  margin: 20px 25px;
-  margin-right: 45px;
 }
 .input-field-4 {
   display: inline-flex;
@@ -153,44 +258,52 @@ div.container_r {
 
 .container_1 {
   display: inline-flex;
+  padding-left: 36px;
+  margin-bottom: 14px;
 }
 
 .container_2 {
   display: inline-flex;
+  padding-left: 36px;
+  margin-bottom: 14px;
 }
 
 .container__3 {
   display: inline-flex;
+  padding-left: 36px;
+  margin-bottom: 14px;
 }
 
 .form-container_r {
-  max-width: 100%;
-  height: 305px;
+  width: 1318px;
+  height: 243px;
   background-color: #ffffff;
-  margin: 10px 39px;
-  padding: 15px;
-  box-shadow: 3px 3px 5px #dedede;
+  margin: 0px 24px;
+  box-shadow: 0px 2px 3px #00000029;
   border: 1px solid #dedede;
-  margin-top: 30px;
+  padding-top: 36px;
+  margin-bottom: 24px;
 }
 
 .form-container-2 {
-  max-width: 100%;
-  height: 400px;
+  width: 1318px;
+  height: 322px;
   background-color: #ffffff;
-  margin: 40px;
-  padding: 15px;
-  box-shadow: 3px 3px 5px #dedede;
+  margin: 0px 24px;
+  padding-top: 36px;
+  box-shadow: 0px 2px 3px #00000029;
   border: 1px solid #dedede;
+  padding-top: 36px;
+  margin-bottom: 24px;
 }
 .form-container-3 {
-  max-width: 100%;
-  height: 330px;
+  width: 1318px;
+  height: 243px;
   background-color: #ffffff;
-  margin: 40px;
-  padding: 15px;
-  box-shadow: 3px 3px 5px #dedede;
+  margin: 0px 24px;
+  box-shadow: 0px 2px 3px #00000029;
   border: 1px solid #dedede;
+  padding-top: 36px;
 }
 
 select {
@@ -203,88 +316,82 @@ select {
 }
 
 select#designation {
-  margin-left: 10px;
+  margin-left: 35px;
   padding: 8px;
 }
 
 h3 {
-  font-size: 20px;
-  margin-left: 28px;
-  margin-bottom: 0px;
+  font-size: 16px;
+  margin-left: 36px;
   text-align: left;
-  font: normal normal medium 14px/30px Roboto;
   letter-spacing: 0px;
   color: #55555580;
   opacity: 1;
+  padding: 0px;
 }
 
 .address {
-  width: 860px;
+  width: 809px;
   padding: 5px;
   border-radius: 5px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 71px;
 }
 
 .country {
-  width: 380px;
+  width: 369px;
   padding: 8px;
   border-radius: 5px;
-  margin-left: -15px;
 }
 
 .phone {
-  width: 380px;
+  width: 369px;
   padding: 5px;
   border-radius: 5px;
-  margin-left: 10px;
+  margin-left: 36px;
 }
 
 .state {
-  width: 380px;
+  width: 369px;
   padding: 5px;
   border-radius: 5px;
-  margin-left: 10px;
 }
 
 .city {
-  width: 380px;
+  width: 369px;
   padding: 5px;
   border-radius: 5px;
 }
 
 .zip-code {
-  width: 380px;
+  width: 369px;
   padding: 5px;
   border-radius: 5px;
 }
 
 .blood-group {
-  width: 380px;
+  width: 369px;
   padding: 5px;
   border-radius: 5px;
   margin-left: 60px;
 }
 
 .date {
-  width: 380px;
+  width: 369px;
   padding: 5px;
   border-radius: 5px;
   margin-right: 30px;
-  margin-left: 10px;
 }
 
 .marital-status {
-  width: 380px;
+  width: 369px;
   padding: 8px;
   border-radius: 5px;
   margin-right: 30px;
-  margin-left: 10px;
+  margin-left: 36px;
 }
 
 input.gender {
-  width: 70px;
-  margin-right: 80px;
+  width: 10px;
 }
 
 button {
@@ -298,8 +405,12 @@ button {
   letter-spacing: 0px;
   color: #00539b;
   opacity: 1;
-  width: 75px;
+  width: 66px;
   border-radius: 4px;
+  padding: 0px;
+  height: 30px;
+  margin: auto;
+  margin-right: 10px;
 }
 
 #save {
@@ -307,10 +418,14 @@ button {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-  margin-right: 10px;
-  width: 75px;
+  /* margin-right: 10px; */
   background: #1f415d 0% 0% no-repeat padding-box;
+  width: 66px;
   border-radius: 4px;
+  padding: 0px;
+  height: 30px;
+  margin: auto;
+  margin-left: 10px;
 }
 
 h2 {
@@ -323,51 +438,48 @@ label.female {
 }
 label.male {
   margin-left: -50px;
-  margin-right: 30px;
-}
-
-.address-lb {
-  margin-left: 14px;
+  margin-right: 186px;
 }
 
 .marital-status-lb {
-  margin-left: 14px;
+  margin-left: 36px;
 }
 
 label.destination_ {
-  margin-left: 14px;
+  margin-left: 36px;
 }
-.date-lb {
-  margin-left: 14px;
-}
+
 .blood-lb {
   margin-left: 60px;
 }
 
-.dest {
-  margin-left: -14px;
-}
-
 .lb {
-  margin-left: 10px;
+  margin-left: 36px;
 }
 
 /* /////////////////////////////// */
 
+.body__2 {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 687px;
+}
+
 #back {
-  float: right;
-  padding: 5px;
-  margin: 15px 15px;
-  margin-top: 20px;
-  background: #1f415d 0% 0% no-repeat padding-box;
-  border-radius: 4px;
-  opacity: 1;
-  margin-right: 30px;
   font: normal normal medium 14px/17px Roboto;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-  width: 75px;
+  margin-right: 10px;
+  background: #1f415d 0% 0% no-repeat padding-box;
+  width: 66px;
+  border-radius: 4px;
+  padding: 0px;
+  height: 30px;
+  margin: auto;
+  margin-top: 32px;
 }
 
 img.info {
@@ -384,10 +496,11 @@ div.bio {
   margin-left: 30px;
 }
 div.Info {
-  margin-left: 30px;
+  margin-left: 55px;
 }
 
 p.name {
+  font-family: "Roboto";
   text-decoration: none;
   margin-top: 100px;
   font: normal normal bold 32px/38px Roboto;
@@ -397,7 +510,8 @@ p.name {
 }
 
 p.profession {
-  font-size: 20px;
+  font-family: "Roboto";
+  font-size: 17px;
   margin: none;
   text-align: left;
   font: normal normal medium 20px/24px Roboto;
@@ -406,6 +520,8 @@ p.profession {
   opacity: 1;
 }
 p.mail {
+  font-family: "Roboto";
+  font-size: 14px;
   text-align: left;
   font: normal normal medium 14px/17px Roboto;
   letter-spacing: 0px;
@@ -419,9 +535,8 @@ p {
 }
 
 p.Address {
-  /* font-size: 15px;
-  font-weight: bold;
-  color: gray; */
+  font-family: "Roboto";
+  font-size: 11px;
   text-align: left;
   font: normal normal medium 14px/20px Roboto;
   letter-spacing: 0px;
@@ -431,6 +546,8 @@ p.Address {
 }
 
 p.date_ {
+  font-size: 11px;
+  font-family: "Roboto";
   text-align: left;
   font: normal normal normal 12px/14px Roboto;
   letter-spacing: 0px;
@@ -439,6 +556,8 @@ p.date_ {
 }
 
 p.gender_ {
+  font-size: 11px;
+  font-family: "Roboto";
   text-align: left;
   font: normal normal normal 12px/14px Roboto;
   letter-spacing: 0px;
@@ -451,6 +570,8 @@ p.gender_ {
 }
 
 p.blood_grp {
+  font-size: 11px;
+  font-family: "Roboto";
   text-align: left;
   font: normal normal normal 12px/14px Roboto;
   letter-spacing: 0px;
@@ -463,6 +584,8 @@ p.blood_grp {
 }
 
 p.marital_ {
+  font-size: 11px;
+  font-family: "Roboto";
   text-align: left;
   font: normal normal normal 12px/14px Roboto;
   letter-spacing: 0px;
@@ -476,13 +599,15 @@ p.marital_ {
 }
 
 .form-contain {
-  max-width: 100%;
-  height: 250px;
-  margin: 40px;
-  padding: 15px;
+  width: 1318px;
+  height: 252px;
+  margin: 0px 24px;
+  margin-bottom: 30px;
+  /* padding: 15px; */
+  padding-top: 32px;
   border: 1px solid #dedede;
   background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px -1px 1px #0000000d;
+  box-shadow: 0px 2px 3px #00000029;
   opacity: 1;
 }
 
@@ -491,36 +616,76 @@ p.marital_ {
 }
 
 h6 {
-  margin-left: 45px;
-  padding: 10px;
-  color: gray;
+  font-family: "Roboto";
+  margin-left: 36px;
+  /* padding: 10px; */
+  text-align: left;
+  font: normal normal medium 14px/30px Roboto;
+  letter-spacing: 0px;
+  color: #55555580;
+  opacity: 1;
+  font-size: 15px;
+  margin-bottom: auto;
+  padding-bottom: 26px;
 }
 
 .input-fieldd-2 {
-  margin-right: 500px;
-  padding: 10px;
+  margin-right: 208px;
   margin-left: 36px;
 }
 .input-fieldd {
   margin-right: 500px;
-  padding: 10px;
+  /* padding: 10px; */
+  margin-left: 36px;
+}
+
+.input-fieldd_3 {
+  margin-right: 208px;
+  margin-left: 36px;
+}
+
+.input-fieldd_4 {
+  margin-right: 216px;
   margin-left: 36px;
 }
 
 div.container {
   display: inline-flex;
   margin-bottom: 15px;
+  padding: 0px;
+  /* padding-left: 36px; */
 }
 
 div.status {
-  margin-left: 55px;
+  margin-left: 36px;
   text-align: left;
 }
 
 p.status_1 {
+  font-family: "Roboto";
   text-align: left;
   font: normal normal medium 14px/20px Roboto;
   letter-spacing: 0px;
   color: #222222;
   opacity: 1;
+  color: #222222;
+}
+
+.detail_ {
+  font-family: "Roboto";
+  text-align: left;
+  font: normal normal medium 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  font-size: 15px;
+}
+.detail_1 {
+  font-family: "Roboto";
+  text-align: left;
+  font: normal normal medium 14px/20px Roboto;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+  font-size: 15px;
 }
